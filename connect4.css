@@ -26,10 +26,7 @@ body {
 }
 
 
-/* pieces are div within game table cells: draw as colored circles */
-
 .piece, .Player1, .Player2 {
-  /* TODO: make into circles */
   width: 100%;
   height: 100%;
   border-radius: 5em;
@@ -43,10 +40,6 @@ body {
   background-color: blue;
 }
  
-/* TODO: make pieces red/blue,  depending on player 1/2 piece */
-
-/* column-top is table row of clickable areas for each column */
-
 #column-top td {
   border: solid 3px black;
 
